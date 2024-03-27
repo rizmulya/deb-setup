@@ -42,7 +42,10 @@ install_nodejs
 install_mongodb
 install_rust
 install_php
+install_java
+install_flutter # change /media/deb/Data/Desktop
 install_virtualbox
+install_yowsup
 # install_from_deb "asset/upwork_5.8.0.33_amd64.deb"
 
 # more package
@@ -53,4 +56,5 @@ apt install aircrack-ng
 apt install nmap
 apt install john
 install_protonvpn
+install_evillimiter
 # install_from_sh "assets/burpsuite_community_linux_v2023_12_1_3.sh"
