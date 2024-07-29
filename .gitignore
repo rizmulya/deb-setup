@@ -1,0 +1,6 @@
+*.deb
+*.tar.gz
+*.tar.xz
+test.sh
+Anaconda3-2023.09-0-Linux-x86_64.sh
+nodesource_setup.sh
