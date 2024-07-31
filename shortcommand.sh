@@ -232,6 +232,13 @@ install_virtualbox()
   systemctl start vboxautostart-service vboxballoonctrl-service vboxdrv vboxweb-service
 }
 
+install_burpsuite()
+{
+  wget --content-disposition "https://portswigger-cdn.net/burp/releases/download?product=community&version=2024.5.5&type=Linux" && \
+    sudo chmod +x burpsuite_community_linux_v2024_5_5.sh && \
+    ./burpsuite_community_linux_v2024_5_5.sh
+}
+
 install_protonvpn()
 {
   # command: https://protonvpn.com/support/official-linux-vpn-debian/

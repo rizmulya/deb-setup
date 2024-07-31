@@ -34,7 +34,7 @@ install_mega
 # developer package
 apt install python-is-python3 2to3 pip python3.11-venv
 apt install git
-apt install docker.io
+apt install docker.io docker-compose
 apt install php
 apt install composer
 apt install npm
@@ -57,4 +57,5 @@ apt install wireshark
 apt install aircrack-ng
 apt install nmap
 apt install john
+install_burpsuite
 install_protonvpn
